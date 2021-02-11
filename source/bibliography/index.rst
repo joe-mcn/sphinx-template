@@ -9,7 +9,7 @@ There is technology all around people in today’s world. Ranging from cell phon
 computers, and game consoles to vehicles, security systems, and home
 utensils. A good majority of these people do not know how most of this new
 technology works. This leads to most people becoming unaware of the possible
-ways they can be exposed through the technology.
+ways they can be exposed through this technology.
 
 Benjamin Herald [#f1]_ writes about the concern of the shortage of cyber-security
 workers in America. The one way to solve this problem is to introduce students
@@ -35,19 +35,21 @@ available to anyone that can access the internet. A good website that I have tri
 is HackThisSite.org [#f3]_. This starts out easy and gets more difficult the further
 you work on this website. It has you find a password for each level that is
 somewhere hidden within the website. Here are the other domains listed in this website.
-- bWAPP – Buggy Web Application
-- Google Gruyere
-- HackThis!!
-- Hack This Site
-- Game of Hacks
-- Vicnum
-- McAfee HacMe Sites
-- Try2Hack
-- OverTheWire
-- Mutillidae
-- Root Me
-- Peruggia
-- WebGoat
+
+* ``bWAPP``
+* ``Buggy Web Application``
+* ``Google Gruyere``
+* ``HackThis!!``
+* ``Hack This Site``
+* ``Game of Hacks``
+* ``Vicnum``
+* ``McAfee HacMe Sites``
+* ``Try2Hack``
+* ``OverTheWire``
+* ``Mutillidae``
+* ``Root Me``
+* ``Peruggia``
+* ``WebGoat``
 
 A good book found from the Dunn Library, The Basics of Hacking and Penetration
 Testing: Ethical Hacking and Penetration Testing Made Easy [#f4]_ talks about the
@@ -68,23 +70,15 @@ professionals are more concerned about the response time and what happens when
 they do find an intruder. They also want to focus on restricting the possibility
 of easily maneuvering through the server and gaining access to the entire server.
 
-.. [#f4] Engebretson, P., & Kennedy, D. (2013). "The basics of hacking and penetration
-testing: Ethical hacking and penetration testing made easy." Amsterdam: Syngress/Elsevier.
+.. [#f4] Engebretson, P., & Kennedy, D. (2013). "The basics of hacking and penetration testing: Ethical hacking and penetration testing made easy." Amsterdam: Syngress/Elsevier.
 
-.. [#f5] Gleicher, Nathaniel. [USENIX Enigma Conference]. (2017, March 6).
-"`USENIX Enigma 2017 What Cybersecurity Can Learn from the Secret Service [Video].<https://www.youtube.com/watch?v=P6YZHsppgLU>`_"
-YouTube. Retrieved February 09, 2021, from https://www.youtube.com/watch?v=P6YZHsppgLU
+.. [#f5] Gleicher, Nathaniel. [USENIX Enigma Conference]. (2017, March 6)."`USENIX Enigma 2017 What Cybersecurity Can Learn from the Secret Service [Video]. <https://www.youtube.com/watch?v=P6YZHsppgLU>`_"YouTube. Retrieved February 09, 2021, from https://www.youtube.com/watch?v=P6YZHsppgLU
 
-.. [#f1] Herald, B. (2017).
-"`Cybersecurity Skills in Demand [Abstract].<https://search.ebscohost.com/login.aspx?direct=true&AuthType=ip,url,uid,cookie&db=afh&AN=122029673&site=ehost-live&scope=site.
->`_" Education Week, 36(25), 1-15. Retrieved February 09, 2021, from
-https://search.ebscohost.com/login.aspx?direct=true&AuthType=ip,url,uid,cookie&db=afh&AN=122029673&site=ehost-live&scope=site.
+.. [#f1] Herald, B. (2017)."`Cybersecurity Skills in Demand [Abstract]. <https://search.ebscohost.com/login.aspx?direct=true&AuthType=ip,url,uid,cookie&db=afh&AN=122029673&site=ehost-live&scope=site.>`_" Education Week, 36(25), 1-15. Retrieved February 09, 2021, from https://search.ebscohost.com/login.aspx?direct=true&AuthType=ip,url,uid,cookie&db=afh&AN=122029673&site=ehost-live&scope=site.
 
-.. [#f2] Solutions, T. (2019). "`How to practice your hacking skills.<https://techsolutions.cc/security/practice-your-hacking-skills/>`_"
-Retrieved February 08, 2021, from https://techsolutions.cc/security/practice-your-hacking-skills/
+.. [#f2] Solutions, T. (2019). "`How to practice your hacking skills. <https://techsolutions.cc/security/practice-your-hacking-skills/>`_" Retrieved February 08, 2021, from https://techsolutions.cc/security/practice-your-hacking-skills/
 
-.. [#f3] Staff, H. (2016, May 22). "`Hackthissite. <https://www.hackthissite.org/>`_"
-Retrieved February 10, 2021, from https://www.hackthissite.org/
+.. [#f3] Staff, H. (2016, May 22). "`Hackthissite. <https://www.hackthissite.org/>`_" Retrieved February 10, 2021, from https://www.hackthissite.org/
 
 
 
