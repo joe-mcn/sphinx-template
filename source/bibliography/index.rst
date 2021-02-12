@@ -35,6 +35,7 @@ have used is HackThisSite.org [#f3]_. Exercises start out easy and get more
 difficult the further you work on the website. It has you find a password for each
 level that is somewhere hidden within the website. Here are the other domains
 listed on this website.
+
 * ``bWAPP``
 * ``Buggy Web Application``
 * ``Google Gruyere``
