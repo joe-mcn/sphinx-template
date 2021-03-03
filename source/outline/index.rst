@@ -52,4 +52,4 @@ Tutorial on starting a machine with Kali Linux (Basics)
     * Explain what it does
     * Possibly throw in screen shots and explain what is happening
 
-.. [#f1] N/A (2018, November 24). "`Wireshark. <https://tools.kali.org/information-gathering/wireshark>`_ Retrieved March 01, 2021, from https://tools.kali.org/information-gathering/wireshark
+.. [#f1] N/A (2018, November 24). "`Wireshark. <https://tools.kali.org/information-gathering/wireshark>`_" Retrieved March 01, 2021, from https://tools.kali.org/information-gathering/wireshark
