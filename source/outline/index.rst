@@ -8,7 +8,7 @@ Ethical Hacking Outline
 
 Thesis
 ------
-Tutorial on working with Kali Linux (Basics)
+Tutorial on starting a machine with Kali Linux (Basics)
 
 * Step 1- Have correct equipment
     * Computer
@@ -48,13 +48,8 @@ Tutorial on working with Kali Linux (Basics)
         * (LIST OFF FEW OF THESE)
     * Reporting Tools
         * (LIST OFF FEW OF THESE)
+* Step 6- Working with WireShark [#f1]_
+    * Explain what it does
+    * Possibly throw in screen shots and explain what is happening
 
-.. [#f4] Engebretson, P., & Kennedy, D. (2013). "The basics of hacking and penetration testing: Ethical hacking and penetration testing made easy." Amsterdam: Syngress/Elsevier.
-
-.. [#f5] Gleicher, Nathaniel. [USENIX Enigma Conference]. (2017, March 6)."`USENIX Enigma 2017 What Cybersecurity Can Learn from the Secret Service [Video]. <https://www.youtube.com/watch?v=P6YZHsppgLU>`_"YouTube. Retrieved February 09, 2021, from https://www.youtube.com/watch?v=P6YZHsppgLU
-
-.. [#f1] Herald, B. (2017)."`Cybersecurity Skills in Demand [Abstract]. <https://search.ebscohost.com/login.aspx?direct=true&AuthType=ip,url,uid,cookie&db=afh&AN=122029673&site=ehost-live&scope=site.>`_" Education Week, 36(25), 1-15. Retrieved February 09, 2021, from https://search.ebscohost.com/login.aspx?direct=true&AuthType=ip,url,uid,cookie&db=afh&AN=122029673&site=ehost-live&scope=site.
-
-.. [#f2] Solutions, T. (2019). "`How to practice your hacking skills. <https://techsolutions.cc/security/practice-your-hacking-skills/>`_" Retrieved February 08, 2021, from https://techsolutions.cc/security/practice-your-hacking-skills/
-
-.. [#f3] Staff, H. (2016, May 22). "`Hackthissite. <https://www.hackthissite.org/>`_" Retrieved February 10, 2021, from https://www.hackthissite.org/
+.. [#f1] N/A (2018, November 24). "`Wireshark. <https://tools.kali.org/information-gathering/wireshark>`_ Retrieved March 01, 2021, from https://tools.kali.org/information-gathering/wireshark
