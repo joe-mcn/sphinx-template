@@ -13,4 +13,5 @@ Fill in  this text with your own intro text
    chapter2/index
    bibliography/index
    outline/index
+   firstPage/index
 
