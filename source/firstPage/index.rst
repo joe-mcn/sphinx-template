@@ -19,29 +19,31 @@ First Page
     * Stable Connection
     * SD card/ Flash Drive
 
-Kali Linux is used by cyber-security specialists to test and work on their network security.
-There are many versions of Kali Linux that you may use, but before we can think about what to download,
-lets make sure you have the right equipment to start out. A good start to wanting to
-work in an IT field would be getting familiar with the hardware that you will be using.
+Cyber-security specialists use Kali Linux to test and work on their network security.
+This software offers more than 600 tools for these specialists to use. [#f2]_ There are
+many versions of Kali Linux that you may use, but before we can think about
+what to download, let us make sure you have the right equipment to start. An excellent
+start to wanting to work in an IT field would be getting familiar with the hardware
+that you will be using.
 
-To start out, you are going to need a computer. It does not matter what kind of computer you
-are using. You can use a Windows, Mac, a Raspberry Pi, or even a virtual machine.
-For this example, I will be showing how to install Kali Linux on a Raspberry Pi, but the
-process is similar to a Windows or Mac machine.
+To begin, you are going to need a computer. It does not matter what kind of computer
+you are using. You can use a Windows, Mac, a Raspberry Pi, or even a virtual machine.
+For this example, I will be showing how to install Kali Linux on a Raspberry Pi,
+but the process is similar to a Windows or Mac machine. You will obviously need
+RAM, hard disk and a port for USB devices.
 
-You are also going to need a stable internet connection to download Kali Linux onto a
-bootable USB or DVD. I found it easier to use a USB due to the fact they are small and are able
-to hold a large amount of data. Depending on what version/type of Kali Linux needed,
-you are going to need a flashdrive that is able to hold that much data. A safe bet
-is to have a 32 GB flash drive, and a 64 GB should be plenty big to download whatever
-version of Kali is needed.
+You will also need a stable internet connection to download Kali Linux onto a bootable
+USB or DVD. I found it easier to use a USB because they are small and can hold a large
+amount of data. Depending on what version/type of Kali Linux is needed, you will need
+a flash drive to store that much data. A safe bet is to have a 32 GB flash drive, and
+a 64 GB should be plenty big to download whatever version of Kali is needed.
 
-Once Kali Linux is installed, you are also going to want to have
-your personal internet or internet that you have permission to work on without getting
-in trouble. The different tools that come with Kali Linux are useful for protecting and analyzing
-a network, but if used in the wrong hands it can be harmful. Some places will not like
-people experimenting with Kali Linux on their internet, so be sure to use your own
-or get permission first.
+Once Kali Linux is installed, you will also want to have your own internet or internet
+that you have permission to work on without getting in trouble. The different tools
+that come with Kali Linux help protect and analyze a network, but they can be harmful
+if used in the wrong hands. Some businesses will not like people experimenting with
+Kali Linux on their internet, so be sure to use your own or get permission first.
+
 
 Rest of Outline
 ---------------
@@ -91,3 +93,4 @@ Rest of Outline
     * Possibly throw in screen shots
 
 .. [#f1] N/A (2018, November 24). "`Wireshark. <https://tools.kali.org/information-gathering/wireshark>`_" Retrieved March 01, 2021, from https://tools.kali.org/information-gathering/wireshark
+.. [#f2] Maningo, J. (2021, March 04). "`A beginner's guide to Kali Linux getting started. <https://www.quickstart.com/blog/a-beginners-guide-to-kali-linux-getting-started/>`_" Retrieved March 14, 2021,from https://www.quickstart.com/blog/a-beginners-guide-to-kali-linux-getting-started/

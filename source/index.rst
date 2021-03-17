@@ -9,9 +9,8 @@ Fill in  this text with your own intro text
    :maxdepth: 1
    :caption: Contents:
 
+   bibliography/index
    chapter1/index
    chapter2/index
-   bibliography/index
-   outline/index
    firstPage/index
-
+   outline/index
