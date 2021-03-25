@@ -52,7 +52,7 @@ your Raspberry Pi.
 ..  image:: /images/Arm-download.png
     :width: 600
     :height: 400
-    :alt: My Raspberry Pi
+    :alt: Arm Download
 
 Once Kali Linux is installed, you will also want to have your own internet or internet
 that you have permission to work on without getting in trouble. This is to allow us
