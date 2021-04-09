@@ -128,7 +128,7 @@ it will ask for the old password, and the new password you would like to change 
 
 There are about 13 different categories of tools within this OS. Cyber-security
 specialists use Kali Linux to test and work on their network security. This software
-offers more than 600 tools for these specialists to use. [#f2]_These categories are
+offers more than 600 tools for these specialists to use. [#f2]_ These categories are
 Information Gathering, Vulnerability Analysis, Web Application Analysis, Database Assessment,
 Password Attacks, Wireless Attacks, Reverse Engineering, Exploitation Tools, Sniffing & Spoofing,
 Post Exploitation, Forensics, Reporting Tools, and Social Engineering Tools. These
