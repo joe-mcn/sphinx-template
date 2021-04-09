@@ -10,8 +10,8 @@ Thesis
 ------
 Tutorial on working with a Kali Linux machine (Basics)
 
-First Page
-----------
+Rough Draft
+-----------
 
 * Step 1- Have correct equipment
     * Computer
@@ -54,6 +54,16 @@ your Raspberry Pi.
     :height: 400
     :alt: Arm Download
 
+..  image:: /images/raspberryPiImager.jpg
+    :width: 600
+    :height: 400
+    :alt: Imager
+
+..  image:: /images/useCustom.png
+    :width: 600
+    :height: 400
+    :alt: Custom
+
 Once Kali Linux is installed, you will also want to have your own internet or internet
 that you have permission to work on without getting in trouble. This is to allow us
 to practice hacking on your own equipment without facing repercussions that may arise.
@@ -61,56 +71,80 @@ The different tools that come with Kali Linux help protect and analyze a network
 if used in the hands of someone trying to do evil. Some businesses will not like people experimenting with
 Kali Linux on their internet, so be sure to use your own or get permission first.
 
-Rest of Outline
----------------
 
 * Step 2 Protecting Yourself
-    * Illegal if no permission
+    * Illegal if no permission- covered in step one
     * VPN possibly
-* Step 3- Download Kali Linux
+
+I am using my hotspot due to the fact I do not think Simpson would like me testing
+these tools on the internet. (Especially now haha) This allows me to test some of these
+tools, but it does not give the full effect of multiple devices working on the network.
+One of the things that a person may do to also stay safe is using a VPN. VPN stands for
+Virtual Private Network. This will help cover your tracks and keep you safe from potentially other hackers,
+or victims, that may see your activity. I do not have a VPN, but you definitly should
+if you want any sort of privacy.
+
+* Step 3- Download Kali Linux (I do not think i need this)
     * Different types (SCREEN SHOTS)
         * Intel PCs
         * Virtual Machine
         * ARM (RASPBERRY PI) this is what I am using
 
-Cyber-security specialists use Kali Linux to test and work on their network security.
-This software offers more than 600 tools for these specialists to use. [#f2]_
-
 * Step 4- get familiar with command line
     * Being able to move around directories (CODE SAMPLES)
+
+In today's world, we love using our mouse to point and click to work on our computers.
+However, it may be to your benefit if you are able to use the command line to get familiar with certain
+skills such as moving between, editing, removing, and adding directories. We can also change
+the user and password to log onto our system.
+
     * Editing Directories (CODE SAMPLES)
+
+To begin working with the command line, lets open it up from the top left of our screen.
+From here, we can see what current files/folders we have available to use by using the *ls*
+command. This lists out what directories or files we are currently able to work with. To change
+between these directories, we have to use the *cd* command. Using *cd* followed by the
+directories name will move us into that directory. If we would like to leave the current directory,
+we are able to do so with " *cd ..* ". Once you are able to move through directories, it might be
+useful to add a directory. It is easy to understand this command if we think of it
+as making a directory rather than adding a directory. The command for this is *mkdir* followed by
+the name of the directory you would like to make. The directory is then added to whichever directory
+you are currently in. Now just as easy as making the directory, we are able to remove it with the
+*rmdir* command.
+
     * Changing the passcode
-    * Running different programs
+
+Changing the password is as easy as moving through directories. The command for this
+is *sudo passwd* followed by the name of the user's password we would like to change.
+In my case, we will be changing the default user, kali. Once we have entered in the command,
+it will ask for the old password, and the new password you would like to change it to.
+
+..  image:: /images/command_line.png
+    :width: 600
+    :height: 400
+    :alt: Custom
+
 * Step 5- recognize what each component of Kali can do
-    * Information Gathering
-        * (LIST OFF FEW OF THESE)
-    * Vulnerability Analysis
-        * (LIST OFF FEW OF THESE)
-    * Exploitation Tools
-        * (LIST OFF FEW OF THESE)
-    * Wireless Attacks
-        * (LIST OFF FEW OF THESE)
-    * Forensics Tools
-        * (LIST OFF FEW OF THESE)
-    * Stress Testing
-        * (LIST OFF FEW OF THESE)
-    * Sniffing and Spoofing
-        * (LIST OFF FEW OF THESE)
-    * Password Attacks
-        * (LIST OFF FEW OF THESE)
-    * Maintaining Access
-        * (LIST OFF FEW OF THESE)
-    * Hardware Hacking
-        * (LIST OFF FEW OF THESE)
-    * Reverse Engineering
-        * (LIST OFF FEW OF THESE)
-    * Reporting Tools
-        * (LIST OFF FEW OF THESE)
-* Step 6- Working with WireShark [#f1]_
-    * Explain what it does
+
+There are about 13 different categories of tools within this OS. Cyber-security
+specialists use Kali Linux to test and work on their network security. This software
+offers more than 600 tools for these specialists to use. [#f2]_These categories are
+Information Gathering, Vulnerability Analysis, Web Application Analysis, Database Assessment,
+Password Attacks, Wireless Attacks, Reverse Engineering, Exploitation Tools, Sniffing & Spoofing,
+Post Exploitation, Forensics, Reporting Tools, and Social Engineering Tools. These
+all are helpful, but I will only be covering a few of these tools.
+
+* Step 6- Working with some tools
+    * Explain what WireShark [#f1]_ does
         * Reading Packets/Frames
         * What this information means
-    * Possibly throw in screen shots
+        * Possibly throw in screen shots
+    * Explain BetterCap
+    * SQLMap
+
+I need to do more research on the tools and how to exactly use them.
+
+The first tool we will talk about is WireShark. WireShark is used to capture packets.
 
 .. [#f1] N/A (2018, November 24). "`Wireshark. <https://tools.kali.org/information-gathering/wireshark>`_" Retrieved March 01, 2021, from https://tools.kali.org/information-gathering/wireshark
 .. [#f2] Maningo, J. (2021, March 04). "`A beginner's guide to Kali Linux getting started. <https://www.quickstart.com/blog/a-beginners-guide-to-kali-linux-getting-started/>`_" Retrieved March 14, 2021,from https://www.quickstart.com/blog/a-beginners-guide-to-kali-linux-getting-started/
