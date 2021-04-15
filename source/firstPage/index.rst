@@ -1,14 +1,14 @@
 Tutorial on working with a Kali Linux machine (Basics)
 ======================================================
 
-Getting Set Up
---------------
-
 At one time in everyone's life, they have probably thought about how life would be
 if they were a hacker. Kali Linux is a useful tool to learn about and possibly get a
 career as a security professional. This is a tutorial to get you started with a machine
 that has Kali Linux, how to work with the basics of Kali Linux, and a quick rundown
 of working with a few of the hundreds of applications that comes with Kali Linux.
+
+Getting Set Up
+--------------
 
 There are many versions of Kali Linux that you may use, but before we can think about
 what to download, let us make sure you have the right equipment to start. The
