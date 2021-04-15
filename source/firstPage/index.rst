@@ -1,68 +1,55 @@
-First Page
-==========
-
-* Hacking tutorial
-* Tutorial on working with html
-* Tutorial on working with a programming language
-* Tutorial on working with a Unix Based System
-
-Thesis
-------
 Tutorial on working with a Kali Linux machine (Basics)
+======================================================
 
-Rough Draft
------------
+Getting Set Up
+--------------
 
-* Step 1- Have correct equipment
-    * Computer
-    * Personal Internet
-    * Stable Connection
-    * SD card/ Flash Drive
+At one time in everyone's life, they have probably thought about how life would be
+if they were a hacker. Kali Linux is a useful tool to learn about and possibly get a
+career as a security professional. This is a tutorial to get you started with a machine
+that has Kali Linux, how to work with the basics of Kali Linux, and a quick rundown
+of working with a few of the hundreds of applications that comes with Kali Linux.
 
 There are many versions of Kali Linux that you may use, but before we can think about
-what to download, let us make sure you have the right equipment to start. An excellent
-start to wanting to work in an IT field would be getting familiar with the hardware
-that you will be using. It may be interesting to you to see how little is needed to
-run Kali Linux.
-
-The basic item every tech person will need is a computer. It does not matter what kind
-of computer you are using. You can use a Windows, Mac, or even a Raspberry Pi.
-For this example, I will be showing how to install Kali Linux on a Raspberry Pi,
+what to download, let us make sure you have the right equipment to start. The
+basic item you will need is a computer. You can use a Windows, Mac, or even a Linux
+machine. For this example, I will be showing how to install Kali Linux on a Raspberry Pi,
 but the process is similar to a Windows or Mac machine. Depending on what route you want
 to take to install the operating system, you will need a USB port, CD drive, or a
 SD slot for this installation walk-through. This is how we will download the OS to our system.
 
 ..  image:: /images/raspberryPi.jpg
-    :width: 400
-    :height: 500
     :alt: My Raspberry Pi
 
 You will also need a stable internet connection to download Kali Linux onto a bootable
-USB or DVD. I found it easier to use a USB because they are small and can hold a large
-amount of data. Depending on what version/type of Kali Linux is needed, you will need
-a flash drive to store that much data. A safe bet is to have a 32 GB flash drive, and
-a 64 GB should be plenty big to download whatever version of Kali is needed.
+device. For this tutorial, we will be using a micro-SD card with our Raspberry Pi. Whatever
+version/type of Kali Linux is needed, you will need a micro-SD adapter to USB for that much data.
+A safe choice is to have a 32 GB micro-SD, and a 64 GB will be plenty big to download
+whatever version of Kali is needed. The extra space will be used to store everything
+else such as files and additional software. Additionally, we will need another computer to
+download the image from, or download the image from our Raspberry Pi onto another micro-SD card.
 
+Downloading Kali
+----------------
 For this walk through we will be installing Kali Linux from the `official website <https://www.offensive-security.com/kali-linux-arm-images/>`_
-for ARM processors. Click on whichever image is applicable to you and your Raspberry Pi, I will
-be using the 64-bit version. We then will need to write this image onto our SD card with
-the Raspberry Pi Imager software. To do this, you will either need to have another computer or an extra SD card for
+for ARM processors. The CPU's in the Raspberry Pi are known as ARM processors that
+accept instructions that can be completed in a single memory cycle. Click on whichever
+image is applicable to you and your Raspberry Pi, I will be using the 64-bit version.
+We then will need to write this image onto our SD card with the Raspberry Pi Imager
+software. To do this, you will either need to have another computer or an extra SD card for
 your Raspberry Pi.
 
-..  image:: /images/Arm-download.png
-    :width: 600
-    :height: 400
-    :alt: Arm Download
+..  figure:: /images/Arm-download.png
 
-..  image:: /images/raspberryPiImager.jpg
-    :width: 600
-    :height: 400
-    :alt: Imager
+    Click on whichever image is applicable for your Raspberry Pi
 
-..  image:: /images/useCustom.png
-    :width: 600
-    :height: 400
-    :alt: Custom
+..  figure:: /images/raspberryPiImager.png
+
+    Click on what OS you are inserting onto the micro-SD card
+
+..  figure:: /images/useCustom.png
+
+    Scroll to custom and select the image that we downloaded from the website
 
 Once Kali Linux is installed, you will also want to have your own internet or internet
 that you have permission to work on without getting in trouble. This is to allow us
@@ -84,21 +71,13 @@ Virtual Private Network. This will help cover your tracks and keep you safe from
 or victims, that may see your activity. I do not have a VPN, but you definitly should
 if you want any sort of privacy.
 
-* Step 3- Download Kali Linux (I do not think i need this)
-    * Different types (SCREEN SHOTS)
-        * Intel PCs
-        * Virtual Machine
-        * ARM (RASPBERRY PI) this is what I am using
-
-* Step 4- get familiar with command line
-    * Being able to move around directories (CODE SAMPLES)
+Working with Kali Linux
+-----------------------
 
 In today's world, we love using our mouse to point and click to work on our computers.
 However, it may be to your benefit if you are able to use the command line to get familiar with certain
 skills such as moving between, editing, removing, and adding directories. We can also change
 the user and password to log onto our system.
-
-    * Editing Directories (CODE SAMPLES)
 
 To begin working with the command line, lets open it up from the top left of our screen.
 From here, we can see what current files/folders we have available to use by using the *ls*
@@ -112,8 +91,6 @@ the name of the directory you would like to make. The directory is then added to
 you are currently in. Now just as easy as making the directory, we are able to remove it with the
 *rmdir* command.
 
-    * Changing the passcode
-
 Changing the password is as easy as moving through directories. The command for this
 is *sudo passwd* followed by the name of the user's password we would like to change.
 In my case, we will be changing the default user, kali. Once we have entered in the command,
@@ -124,8 +101,6 @@ it will ask for the old password, and the new password you would like to change 
     :height: 400
     :alt: Custom
 
-* Step 5- recognize what each component of Kali can do
-
 There are about 13 different categories of tools within this OS. Cyber-security
 specialists use Kali Linux to test and work on their network security. This software
 offers more than 600 tools for these specialists to use. [#f2]_ These categories are
@@ -134,17 +109,22 @@ Password Attacks, Wireless Attacks, Reverse Engineering, Exploitation Tools, Sni
 Post Exploitation, Forensics, Reporting Tools, and Social Engineering Tools. These
 all are helpful, but I will only be covering a few of these tools.
 
-* Step 6- Working with some tools
-    * Explain what WireShark [#f1]_ does
-        * Reading Packets/Frames
-        * What this information means
-        * Possibly throw in screen shots
+Different tools within Kali Linux
+---------------------------------
+
+Wireshark is a useful tool that comes with Kali Linux. This tool can capture network data.
+The data you capture is known as packets and they can tell you the source and the
+destination the data is moving through [#f1]_. This is useful for us to understand so we know
+what activity is happening on the network. You are able to capture a packet, which is
+then color coded through Wireshark to easily visualize what packet you are looking at.
+Once you are comfortable with the aspects of the network, Wireshark will be easier to
+understand. Professionals are able to figure out network problems, find possible attacks,
+and could even find the location of some of the source and destination traffic.
+
     * Explain BetterCap
     * SQLMap
 
 I need to do more research on the tools and how to exactly use them.
-
-The first tool we will talk about is WireShark. WireShark is used to capture packets.
 
 .. [#f1] N/A (2018, November 24). "`Wireshark. <https://tools.kali.org/information-gathering/wireshark>`_" Retrieved March 01, 2021, from https://tools.kali.org/information-gathering/wireshark
 .. [#f2] Maningo, J. (2021, March 04). "`A beginner's guide to Kali Linux getting started. <https://www.quickstart.com/blog/a-beginners-guide-to-kali-linux-getting-started/>`_" Retrieved March 14, 2021,from https://www.quickstart.com/blog/a-beginners-guide-to-kali-linux-getting-started/
