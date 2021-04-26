@@ -141,7 +141,7 @@ do not pick anything as your targets and go straight to the ARP poisoning sectio
 For me, I do not have enough devices connected to show exactly how it works,but
 ideally you would have two different devices with different MAC addresses.
 
-..  figure:: /images/hostetter.png
+..  figure:: /images/hostEtter.png
 
     3 Dots top right > Hosts > Scan for Hosts > Hosts List
 
